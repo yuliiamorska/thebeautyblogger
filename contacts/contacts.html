@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contacts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="contacts/contacts.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <p class="lipstickicon">
+            <img src="img/lipstickicon.png" alt="lipstickicon">
+        </p>
+        <nav>
+            <div id="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>       
+                <a href="contacts.html">Contacts</a>
+            </div>
+            <form>
+                <input type="search" name="search" placeholder="Search...">
+            </form>  
+        </nav>
+    </header>
+    <aside id="categories">
+        <p>Categories:</p>
+        <ul>
+            <li><a href="makeup.html" class="right">Make up</a></li>
+            <li><a href="cosmetics.html" class="right">Cosmetics</a></li>
+            <li><a href="fashion.html" class="right">Fashion</a></li>
+        </ul>
+    </aside>
+    <div class="forms">
+        <p class="font">Contacts</p>
+        <form>
+            <p><label><br />
+            <input type="text" name="your-name" value="" size="40" id="yourname" class="yourname" aria-required="true" aria-invalid="false" placeholder="Your Name (required)"/></label></p>
+            <p><label><br />
+            <input type="email" name="your-email" value="" size="40" id="youremail" class="yourname" aria-required="true" aria-invalid="false" placeholder="Your Email (required)"/></span> </label></p>
+            <p><label> <br />
+            <input type="text" name="your-subject" value="" size="40" id="yourtext" class="yourname" aria-invalid="false" placeholder="Subject"/></span> </label></p>
+            <p><label><br />
+            <textarea name="your-message" cols="40" rows="10" id="yourmessage" class="yourname" aria-invalid="false" placeholder="Your Message"></textarea></span> </label></p>
+            <p><input type="submit" value="Send" class="submit" /></p>
+        </form>
+    </div>
+    <h2 id="thanks" style="display:none;">Thank you!</h2>
+    <h2 id="incorrect" style="display:none;">Form incorrect!</h2>
+    <footer id="bottom">
+            <a href="https://www.facebook.com/julia.morska.3"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/YMorska"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yulya_morska/"><i class="fa fa-instagram"></i></a>
+            <a href="#"><img src="img/lipstickicon.png" alt="lipstickicon" class="lipstick-bottom"></a>
+            <a href="#"><i class="fa fa-print"></i></a>
+            <a href="#"><i class="fa fa-share"></i></a>
+            <a href="#"><i class="fa fa-star"></i></a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="form.js"></script>
+</body>
+</html>

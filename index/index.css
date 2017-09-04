@@ -1,0 +1,187 @@
+body{
+    background-color: #b3ffff;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.lipstickicon img{
+    width: 80px;
+    height:80px;
+    float: left
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+#menu a:link, a:visited {
+    background-color: #ffeaea;
+    color: black;
+    padding: 14px 25px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+#menu a:hover, a:active :not(h1){
+    background-color: #ffcccc;
+}
+input[type=search] {
+    float: right;
+    margin: 20px 0 10px 10px;
+    width: 230px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    background-color: #ffeaea;
+    background-position: 10px 10px; 
+    padding: 12px 20px 12px 10px;
+}
+#categories{
+    background-color: #ffeaea;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 230px;
+    height: 300px;
+    margin: 300px 0 10px 10px;
+    padding-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+}
+.right{
+    text-decoration: none;
+    color: black;
+}
+.right a:visited, a:hover{
+    font-size: 30px;
+}
+li{
+    list-style-type: none;
+}
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Indie Flower', cursive;
+}
+.girl img{
+    width: 700px;
+    height: 700px;
+}
+.girl{
+    display: flex;
+    justify-content: center;
+}
+.welcome {
+    background-color: #ffeaea;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+.introduction{
+    background-color: #ffeaea;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 20px;
+    padding: 0 250px 0 250px;
+}
+.icon img{
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.icon{
+    display: flex;
+    justify-content: center; 
+}
+h2{
+    font-variant: small-caps;
+    font-family: 'Indie Flower', cursive;
+    background-color: #ffeaea;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+.photo-article{
+    display: flex;
+    justify-content: center; 
+}
+.article{
+    display: flex;
+    justify-content: center; 
+    padding: 0 150px 0 150px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.lipstick-bottom{
+    width: 80px;
+    height: 80px;
+}
+#bottom{
+    text-align: center;
+}
+#bottom a:link, a:visited {
+    background-color: #ffeaea;
+    color: black;
+    padding: 14px 25px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+.old-posts a:link, a:visited {
+    background-color: #ffeaea;
+    color: black;
+    padding: 14px 25px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+@media (max-width: 620px){
+    img{
+        width: 300px;
+        height: 200px;
+    }
+    #categories{
+        display: none;
+    }
+    .girl{
+        display: none;
+    }
+    .introduction{
+        padding: 0;
+    }
+    form{
+        display: none;
+    }
+    .article{
+        display: none;
+    }
+    #bottom{
+    display: none;
+    }
+    #bottom1{
+        display: block;
+    }
+}
